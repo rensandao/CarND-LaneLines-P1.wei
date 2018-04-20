@@ -52,8 +52,8 @@ To solve the problem of extrapolating line segments, My basic logical thinking i
         (i.e., absoulte(slope)>0.5 and absolute(slope) <0.8) 
         
     (3) The two end points can obtained according to the parameter of images coordinate. And use the function polyfit(), 
-        we can easily get the adjusted slope and intercept. The latter can be used to help obtain the x value of coodinate. 
-        Based on them, real-time lines can be draw properly.
+        we can easily get the adjusted slope and intercept. The latter can be used to help obtain the x value of 
+        coodinate. Based on them, real-time lines can be draw properly.
 
 Some results are as following:
 
@@ -74,13 +74,13 @@ Some results are as following:
     (1) The parameters. I adjusted the relevant parameters a lot to match six image given. It must need more time to 
         process massive date of images, and we cannot ensure the perfomance for everyone.
 
-    (2) As is shown in challenged video, the line will disappears or cannot predicate when encounting some situation
+    (2) As is shown in challenged video, the line will disappears or cannot predicate when encounting some situations
         like shadow and urgent sharp curve road. This causes uncertain results, and should be taken in account.
 
 ### 3. Suggest possible improvements to your pipeline
 
-    One improvement would be sovle the shadow or sharp curve road situation. By combining some other methods,though I dont 
-    know now, we should create more accurate pipeline to sovle these problem.
+    One improvement would be sovle the shadow or sharp curve road situation. By combining some other methods,though I 
+    don't know now, we should create more accurate pipeline to sovle these problem.
 
     The other possible improvement I think should be focused on the parameters seting work.Get some algorithm from deep
     learning, and make it more easy and efficient.
