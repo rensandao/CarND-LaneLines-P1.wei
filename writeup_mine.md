@@ -33,11 +33,11 @@ My pipeline consisted of 5 steps：
 
 To get some ideal effect, some special parameters were adjusted for many times. 
 
-    (1) For Gaussian Blur, it almost showed little change when the kernel size equals 3 at first. After trying for serval times, I 
-        set it to 7.
+    (1) For Gaussian Blur, it almost showed little change when the kernel size equals 3 at first. After trying 
+        for serval times, I set it to 7.
 
-    (2) For Canny Edge Detection, I referred to the experience of adjusting parameter in the video exercise. Based on the 
-        ratio(1:3), I set low thresholds 50 and high_thresholds 150.
+    (2) For Canny Edge Detection, I referred to the experience of adjusting parameter in the video exercise. 
+        Based on the ratio(1:3), I set low thresholds 50 and high_thresholds 150.
 
     (3) For Hough Transform, I took(1, numpy.pi/180, 30, 5, 10) as ( rho, theta, threshold, min_line_len, max_line_gap).
 
@@ -71,12 +71,16 @@ Some results are as following:
 
 ### 2. Identify potential shortcomings with your current pipeline
 
-    (1) The parameters. I adjusted the relevant parameters a lot to match six image given. It must need more time to process massive date of images, and we cannot ensure the perfomance for everyone.
+    (1) The parameters. I adjusted the relevant parameters a lot to match six image given. It must need more time 
+        to process massive date of images, and we cannot ensure the perfomance for everyone.
 
-    (2) As is shown in challenged video, the line will disappears or cannot predicate when encounting some situation like shadow and urgent sharp curve road. This causes uncertain results, and should be taken in account.
+    (2) As is shown in challenged video, the line will disappears or cannot predicate when encounting some situation
+        like shadow and urgent sharp curve road. This causes uncertain results, and should be taken in account.
 
 ### 3. Suggest possible improvements to your pipeline
 
-    One improvement would be sovle the shadow or sharp curve road situation. By combining some other methods,though I dont know now, we should create more accurate pipeline to sovle these problem.
+    One improvement would be sovle the shadow or sharp curve road situation. By combining some other methods,though I
+    dont know now, we should create more accurate pipeline to sovle these problem.
 
-    The other possible improvement I think should be focused on the parameters seting work.Get some algorithm from deep learning, and make it more easy and efficient.
+    The other possible improvement I think should be focused on the parameters seting work.Get some algorithm from deep
+    learning, and make it more easy and efficient.
