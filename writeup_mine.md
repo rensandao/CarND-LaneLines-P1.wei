@@ -57,8 +57,6 @@ To solve the problem of extrapolating line segments, My basic logical thinking i
 
 Some results are as following:
 
-![alt text][solidWhiteRight]
-![alt text][whiteCarLaneSwitch]
 ```python
 %%html
 <img src="test_images_output/whiteCarLaneSwitch.jpg" width=40%>  
