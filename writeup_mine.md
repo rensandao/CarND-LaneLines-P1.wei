@@ -51,9 +51,9 @@ To solve the problem of extrapolating line segments, My basic logical thinking i
     (2) The slope of lines must be limited to a certain range, which can mask most of irrelevant lines.
         (i.e., absoulte(slope)>0.5 and absolute(slope) <0.8) 
         
-    (3) The two end points can obtained according to the parameter of images coordinate. And use the function polyfit(), 
-        we can easily get the adjusted slope and intercept. The latter can be used to help obtain the x value of 
-        coodinate. Based on them, real-time lines can be draw properly.
+    (3) The two end points can obtained according to the parameter of images coordinate. And use the function
+        polyfit(), we can easily get the adjusted slope and intercept. The latter can be used to help obtain 
+        the x value of coodinate. Based on them, real-time lines can be draw properly.
 
 Some results are as following:
 
